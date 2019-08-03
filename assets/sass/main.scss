@@ -1,0 +1,42 @@
+// sass/
+// |
+// |– abstracts/
+		@import 'abstracts/variables';
+// |   |– _functions.scss    # Sass Functions
+		@import 'abstracts/mixins';
+// |   |– _placeholders.scss # Sass Placeholders
+// |
+// |– base/
+		@import 'base/base';
+// |
+// |– components/
+		@import 'components/profile';
+		@import 'components/video-item';
+// |   |– _carousel.scss     # Carousel
+// |   |– _cover.scss        # Cover
+// |   |– _dropdown.scss     # Dropdown
+// |   …                     # Etc.
+// |
+// |– layout/
+// |   |– _navigation.scss   # Navigation
+// |   |– _grid.scss         # Grid system
+// |   |– _header.scss       # Header
+// |   |– _footer.scss       # Footer
+// |   |– _sidebar.scss      # Sidebar
+// |   |– _forms.scss        # Forms
+// |   …                     # Etc.
+// |
+// |– pages/
+		@import 'pages/home';
+// |   |– _contact.scss      # Contact specific styles
+// |   …                     # Etc.
+// |
+// |– themes/
+// |   |– _theme.scss        # Default theme
+// |   |– _admin.scss        # Admin theme
+// |   …                     # Etc.
+// |
+// |– vendors/
+		@import 'vendors/bootstrap-4.3.1/bootstrap';
+// |
+// `– main.scss              # Main Sass file

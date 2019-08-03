@@ -1,0 +1,32 @@
+header {
+	background-image: url('../images/image-banner.png');
+	background-position: center center;
+	background-size: cover;
+	height: 100px;
+	@include respond-to('md') {
+		height: 300px;
+	}
+}
+
+
+.video__title{
+	&-size{
+		font-size: 2em;
+		@include respond-to('md') {
+			font-size: 1.6em;
+		}
+	}
+
+}
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: $sm-size) {  }
+
+// // Medium devices (tablets, and up)
+
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: $lg-size) {  }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: $xl-size) {  }

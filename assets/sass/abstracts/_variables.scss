@@ -1,0 +1,23 @@
+// colores
+$black: black;
+$info: #92dce5;
+$danger: #ef6461;
+
+
+// media queries sizes
+$sm-size:576px;
+$md-size:768px;
+$lg-size:992px;
+$xl-size:1200px;
+
+$breakpoints: (
+  'sm': (min-width: $sm-size),
+  'md': (min-width: $md-size),
+  'lg': (min-width: $lg-size),
+  'xl': (min-width: $xl-size),
+);
+
+$theme-colors: (
+  "info": $info,
+  "danger": $danger
+);
